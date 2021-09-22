@@ -1,4 +1,5 @@
 Diffrense Between HTTP1.1 VS HTTP2
+--------------------------------------
 
 The Hypertext Transfer Protocol, or HTTP, is an application protocol That
 was developed in 1989.HTTP2.0 is the latest.It comes in 2015.
@@ -7,6 +8,7 @@ and server-intensive graphics and videos.Http is a client server based protocol.
 It is worked By request passiing to the server and Response get by the server.
 
 HTTP/1.1
+___________
 Developed by Timothy Berners-Lee in 1989 as a communication standard for the 
 World Wide Web, HTTP is a top-level application protocol that exchanges 
 information between a client computer and a local or remote web server. 
@@ -20,6 +22,7 @@ call for data.
 
 
 HTTP/2
+_____________
 
 HTTP/2 began as the SPDY protocol, developed primarily at Google with the
  intention of reducing web page load latency by using techniques such as 
