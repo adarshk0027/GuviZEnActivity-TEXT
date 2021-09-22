@@ -1,0 +1,46 @@
+ objects and its internal representation in Javascript
+
+Objects are the representation of real-world entities in any language 
+representing things by defining its properties along with their values. 
+In Javascript, objects may be defined as an unordered collection of related data,
+ of primitive or reference types, in the form of “key: value” pairs.
+
+we can list the values and seperated by Commas.and we Can Also use {} for creating objects
+*) object creation
+
+var person={id:"1",name:"ADARSH",age:50,display:function()};
+
+id , name,age .display are keys used in object.
+we can include diffrent type of values.
+
+ *)Object.create()
+
+The method creates a new object, using an existing object as the prototype of
+ the newly created object.
+using the object literal example as prototype-
+var car2 = Object.create(car);
+car.id=2; 
+
+*)ASSIGNING
+
+we can get the values using keys and also use . operator for that
+eg:
+obj1.name;
+obj1.age;
+
+Then we can assign a another value to a key in an object.
+if a key name has a value "adarsh" ,then we want to update that by Gopi.
+object is person then,
+person.name="Gopi";
+
+
+we can also include a function in object.if display is a key and value is a 
+function. And the object is person Then,we can call that function by 
+
+person.display();
+
+* we can also get a value by using [];
+
+ie,a person object have an key id and its value is 4 then we can get id by
+
+person[id];
